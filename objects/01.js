@@ -16,6 +16,10 @@
     country: "Np"
  }
 
+//  console.log(Object.entries(user)) // [ [ 'name', 'Bishal' ], [ 'country', 'Np' ] ]
+// console.log(Object.keys(user)) //  [ 'name', 'country' ]
+// console.log(Object.values(user)) //  [ 'Bishal', 'Np' ]
+
  //* we can add properties easily like this
  user.address = "ktm";
 //  console.log(user);

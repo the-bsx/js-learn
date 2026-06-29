@@ -25,3 +25,4 @@ let ladder = {
 // ladder.count()
 
 ladder.up().up().down().count().down().count(); 
+console.log(ladder)
