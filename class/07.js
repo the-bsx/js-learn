@@ -16,7 +16,7 @@ class User{
         return `${this._email}#123`
     }
     set email(value){
-        this._email = value;
+        this._email = value ;
     }
 }
 
