@@ -97,7 +97,6 @@ consumePromiseFive();
 // }
 
 // getData()
-
     fetch("https://api.github.com/users/the-bsx")
     .then(function(response){
         return response.json();
