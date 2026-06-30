@@ -33,7 +33,7 @@ function addNum(a, b) { return a + b; } // hoisted in full
 let res1 = addNum(val1, val2); // new context pushed, then popped, returns 15
 ```
 
-**Note:** your notes only cover `let`/function hoisting — `var` hoisting (initialized to `undefined` instead of TDZ) isn't written down yet. Worth adding since it's the classic interview gotcha.
+
 
 ---
 
@@ -46,7 +46,7 @@ let res1 = addNum(val1, val2); // new context pushed, then popped, returns 15
 })();
 ```
 
-**Gap:** this folder only has the IIFE example. Closures, default/rest params, `arguments` object, arrow function `this` binding, and currying aren't in your notes yet — these are core topics worth filling in.
+
 
 ---
 
@@ -287,14 +287,4 @@ str.includes("id");     // boolean
 str.slice(0, 4);        // substring, end NOT included, non-mutating
 ```
 
-**Gap:** no notes yet on `substring()` vs `slice()` differences (substring doesn't accept negative indices), `replace`/`replaceAll`, `trim`, `padStart`/`padEnd`, template literals, or string immutability. Since this folder only has one short file, it's the section most worth expanding next.
 
----
-
-## Summary: What to revise next
-
-1. **`var` hoisting** behavior (vs `let`/`const` TDZ) — execution context notes are otherwise solid.
-2. **Closures** and default/rest parameters — functions folder is very thin (1 file).
-3. **Microtask vs macrotask queue** ordering — you've started exploring this in `async/03.js` but haven't written conclusions down.
-4. **String methods** beyond `indexOf`/`slice` — least developed section.
-5. Fix the comment in `objects/02.js` that implies `structuredClone` succeeds on an object with a method — it actually throws `DataCloneError`.
